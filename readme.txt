@@ -6,6 +6,8 @@ simpluino              Version 1.0
 Stefan Huber    signalwerk.ch 2011
 -------------------------------------------------------------------------------------
 
+The files for the pcb layout are designed in EAGLE (Software). For more infos:
+http://www.cadsoftusa.com/
 
 
 Attention !
