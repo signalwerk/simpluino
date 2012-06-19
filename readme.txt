@@ -1,6 +1,7 @@
+!https://github.com/signalwerk/simpluino/raw/master/simpluino.png(PCB of simpluino)!
 
 =====================================================================================
-simpluino              Version 1.0                                               2011
+simpluino              Version 1.0                                               2012
 =====================================================================================
 
 Stefan Huber           signalwerk.ch
@@ -15,11 +16,16 @@ In the folder «production» you can find the output to Gerber.
 Attention !
 -------------------------------------------------------------------------------------
 Only connect the FTDI if you are not connected to other power sources!
+If you like to upload a sketch with FTDI press the reset button just before the 
+IDE starts to upload the code. Otherwise you will get an error code like:
+avrdude: stk500_recv(): programmer is not responding
 
 
 Latest Version
 -------------------------------------------------------------------------------------
 https://github.com/signalwerk/simpluino
+Informations:
+https://signalwerk.ch/simpluino
 
 
 Feature
@@ -28,7 +34,7 @@ Feature
 – Minimal Arduino-Clone-Board with 16 MHz Crystal and Reset-Switch
 – Mounting holes (bit small but still there)
 – Smal dimension (63.8mm x 21.6mm)
-– 6 Pin for FTDI-Connector (no Power-Jumpers)
+– 6 Pin for FTDI-Connector (no Power-Jumpers, no auto-reset)
 – Two layers PCB
 – Silkscreen on the front and back
 
@@ -46,8 +52,18 @@ Parts to Build the simpluino
 
 (optional)
 – Switch (reset)
-– 28pin socket adaptor (swap ATMega)
+– 28pin socket adaptor (swap ATmega)
 – Header-Pins (swap connections)
+
+
+Possible Modifications
+-------------------------------------------------------------------------------------
+– Take a 5V 78L05 Voltage regulator to save space
+
+
+ToDo for Version 2
+-------------------------------------------------------------------------------------
+– 10uF capacitor between the RST and the FTDI-Headers for perform auto-reset
 
 
 Licence
@@ -74,6 +90,7 @@ Infos for Arduino-Clones and PCB design
 -------------------------------------------------------------------------------------
 – http://www.thebox.myzen.co.uk/Tutorial/De-coupling.html
 – http://www.sparkfun.com/tutorials/115
+
 
 PCB-Design
 -------------------------------------------------------------------------------------
