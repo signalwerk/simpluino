@@ -15,7 +15,7 @@ avrdude: stk500_recv(): programmer is not responding
 
 
 ### Latest Version
-https://github.com/signalwerk/simpluino
+[Github Repo](https://github.com/signalwerk/simpluino)
 
 ### Feature
 * All Power-Pins and all Output-/Input-Pins fit for Breadboards (if needed)
